@@ -1,15 +1,15 @@
 # WTM-System-using-Abstraction
 Assignment: Water Tank Monitoring System (with Abstraction)
 
-Abstract Class: WaterTank is an abstract base class that defines the capacity, current water level, and declares abstract methods for filling the tank, using water, and checking the tank’s status.
+Abstract Class: [WaterTank] is an abstract base class that defines the capacity, current water level, and declares abstract methods for filling the tank, using water, and checking the tank’s status.
 
-Subclass: HomeTank extends WaterTank to represent a small household tank with a 200-liter capacity, implementing the behavior for filling, using, and status checking.
+Subclass: [HomeTank] extends WaterTank to represent a small household tank with a 200-liter capacity, implementing the behavior for filling, using, and status checking.
 
-Subclass: BuildingTank extends WaterTank to represent a large tank with a 1000-liter capacity, implementing the same methods with rules specific to its size.
+Subclass: [BuildingTank] extends WaterTank to represent a large tank with a 1000-liter capacity, implementing the same methods with rules specific to its size.
 
 User Interaction: The program uses JOptionPane to let the user choose a tank, perform actions like filling, using, or checking the status, and displays the updated water level after each operation.
 
-Program Flow: The loop continues until the tank becomes completely full or empty, after which the program ends with a final status message.
+End condition >> The loop continues until the tank becomes completely full or empty, after which the program ends with a final status message.
 <img width="1052" height="911" alt="tank 1" src="https://github.com/user-attachments/assets/30e4f730-9bd2-4f66-8c04-8ca884e37afd" />
 <img width="1142" height="875" alt="tank 2" src="https://github.com/user-attachments/assets/91b65d98-6cf1-45cc-817c-39ea0d0177b4" />
 <img width="1862" height="918" alt="tank 3" src="https://github.com/user-attachments/assets/9d9a4a8b-2970-4975-bdce-c596ce163942" />
