@@ -15,6 +15,8 @@ Program Flow: The loop continues until the tank becomes completely full or empty
 <img width="1862" height="918" alt="tank 3" src="https://github.com/user-attachments/assets/9d9a4a8b-2970-4975-bdce-c596ce163942" />
 <img width="1452" height="365" alt="tank 4" src="https://github.com/user-attachments/assets/849e38af-39d5-4ea5-afaf-aa2b52f30425" />
 
+The program demonstrates the concept of abstraction in Java by modeling water tanks with a common abstract class and specialized subclasses. WaterTank defines shared properties and behaviors, while HomeTank and BuildingTank implement the actual logic for different capacities. User interaction is handled through JOptionPane, allowing users to select a tank, fill or use water, and check its status. The program ensures that water levels never exceed the tank’s capacity or drop below zero, and it ends once the tank is either full or empty.
+
 RUNNING CODE --->
 <p>
 <img width="381" height="237" alt="frame 1" src="https://github.com/user-attachments/assets/68b4e1de-dd41-4842-b0b0-2e5a0dfea5c7" ><br>
